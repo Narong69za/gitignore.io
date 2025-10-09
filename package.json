@@ -14,6 +14,7 @@
     "test": "jest e2e-tests"
   },
   "dependencies": {
+<<<<<<< HEAD
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^3.4.1",
     "file-loader": "^6.2.0",
@@ -26,5 +27,31 @@
     "web-vitals": "^2.1.0",
     "webpack": "^5.40.0",
     "webpack-cli": "^4.7.2"
+=======
+    "construx": "^1.0.1",
+    "construx-copier": "^1.0.0",
+    "construx-dustjs": "^1.1.0",
+    "construx-less": "^1.0.0",
+    "dust-makara-helpers": "^4.1.2",
+    "express": "^4.14.0",
+    "kraken-js": "^2.1.0",
+    "makara": "^2.0.3",
+    "requirejs": "^2.3.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-config-dir": "^0.3.2",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-copy-to": "0.0.12",
+    "grunt-dustjs": "^1.4.0",
+    "grunt-makara-amdify": "^1.0.1",
+    "grunt-mocha-cli": "^3.0.0",
+    "mocha": "^3.2.0",
+    "supertest": "^2.0.1"
+>>>>>>> upstream/node-legacy
   }
 }
